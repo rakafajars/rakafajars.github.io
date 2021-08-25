@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+
+  <base href="/">
+
+  <meta charset="UTF-8">
+  <meta content="IE=Edge" http-equiv="X-UA-Compatible">
+  <meta name="description" content="Al-Qur'an serta terjemahan sesuai dengan standar KEMENAG Republik Indonesia yang dapat dibaca melalui website secara online.">
+
+  <!-- iOS meta tags & icons -->
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black">
+  <meta name="apple-mobile-web-app-title" content="Al-Qur'an Digital">
+  
+  <!-- OG  -->
+  <meta property="og:title" content="Al-Qur'an Digital" />
+  <meta property="og:description" content="Al-Qur'an serta terjemahan sesuai dengan standar KEMENAG Republik Indonesia yang dapat dibaca melalui website secara online." />
+  <meta property="og:image" content="https://res.cloudinary.com/dayalq0do/image/upload/v1622169623/uploads/logo/alquran_digital_web_pbnmoe.png" />
+
+  <!-- Twitter -->
+  <meta name="twitter:site" content="Al-Qur'an Digital">
+  <meta name="twitter:title" content="Al-Qur'an Digital">
+  <meta name="twitter:description" content="Al-Qur'an serta terjemahan sesuai dengan standar KEMENAG Republik Indonesia yang dapat dibaca melalui website secara online." />
+  <meta name="twitter:image" content="https://res.cloudinary.com/dayalq0do/image/upload/v1622169623/uploads/logo/alquran_digital_web_pbnmoe.png" />
+
+
+
+  <link rel="apple-touch-icon" href="favicon.png">
+
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="favicon.png"/>
+
+  <title>Al-Qur'an Digital Test</title>
+  <link rel="manifest" href="manifest.json">
+</head>
+<body>
+  <!-- This script installs service_worker.js to provide PWA functionality to
+       application. For more information, see:
+       https://developers.google.com/web/fundamentals/primers/service-workers -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('flutter-first-frame', function () {
+        navigator.serviceWorker.register('flutter_service_worker.js?v=260465697');
+      });
+    }
+  </script>
+  <script src="main.dart.js" type="application/javascript"></script>
+</body>
+</html>
